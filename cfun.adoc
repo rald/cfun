@@ -1,0 +1,108 @@
+= C Fun: Fun and Adventures in C Language Programming
+Fria El Agua <friaelagua@gmail.com>
+:doctype: book
+:toc:
+
+
+
+== Chapter 1: Compiling and Running
+
+=== Your first program
+.HelloWorld.c
+[source,c]
+----
+/* HelloWorld.c */
+#include <stdio.h>
+int main(void) {
+	printf("Hello World\n");
+	return 0;
+} 
+----
+
+=== Compiling
+.Compiling the Source Code
+[source,sh]
+----
+gcc HelloWorld.c -o HelloWorld
+----
+
+=== Running
+.Running the Executable
+[source,sh]
+----
+./HelloWorld
+----
+
+
+
+<<<
+
+
+
+== Chapter 2: Basic Data Types
+
+=== Character
+`char` or `signed char` has a range from -128 to 127. +
+`unsigned char` has a range from 0 to 255. +
+Can contain an ascii character or a number.
+
+=== Integer
+`int` or `signed int` has a range from +
+`unsigned int` has a range from +
+`short int` has a range from +
+`long int` has a range from +
+`long long int` has a range from +
+Can contain only integers.
+
+=== Float
+`float` Has a range from +
+Can contain decimal numbers.
+
+=== Double
+`double` Has a range from +
+`long double` Has a range from +
+Can contain decimal numbers.
+
+
+
+<<<
+
+
+
+== Chapter 3: Basic Input/Output
+
+=== Input
+.Basic Input
+[source,c]
+----
+scanf( fmt, ...args );
+----
+
+=== Output
+.Basic Output
+[source,c]
+----
+printf( fmt, ...args );
+----
+
+=== Format Specifiers
+.Format Specifiers
+|===
+|format|definition 
+
+|%c    |char       
+|%d,%i |int        
+|%hd   |short int  
+|%u    |unsigned int        
+|%hu   |unsigned short int        
+|%f    |float      
+|%lf   |double     
+|%llf  |long double
+|%s    |string
+|===
+
+
+
+<<<
+
+
