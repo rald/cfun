@@ -1,0 +1,13 @@
+## Chapter 4: Variables
+
+### Printing a Variable
+.Printing a Variable
+----
+include::../src/printvar.c[]
+----
+
+### Scanning a Variable
+.Scanning a Variable
+----
+include::../src/scanvar.c[]
+----

@@ -1,0 +1,27 @@
+== Chapter 2: Basic Data Types
+
+=== Character
+`char` or `signed char` has a range from -128 to 127. +
+`unsigned char` has a range from 0 to 255. +
+Can contain an ascii character or a number.
+
+=== Integer
+`int` or `signed int` has a range from -2,147,483,648 to 2,147,483,647 +
+`unsigned int` has a range from 0 to 4,294,967,295 +
+`signed short int` has a range from -32668 to 32767 +
+`unsigned short int` has a range from 0 to 65535 +
+`long int` has a range from -2,147,483,648 to 2,147,483,647 +
+`long long int` has a range from  -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807.
+ +
+Can contain only integers.
+
+=== Float
+`float` Has a range from 1.2E-38 to 3.4E+38 +
+Can contain decimal numbers.
+
+=== Double
+`double` Has a range from 1.7E-308 to 1.7E+308 +
+`long double` Has a range from 3.4E-4932 to 1.1E+4932. +
+Can contain decimal numbers.
+
+

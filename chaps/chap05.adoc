@@ -1,0 +1,19 @@
+## Chapter 5: Mathematical Operators
+
+=== Basic Mathematical Operators
+.Basic Mathemathical Operators
+|===
+|Operator|Definition 
+
+|+      |add       
+|-      |subtract        
+|*      |multiply  
+|/      |divide       
+|%      |modulo
+|===
+
+### Basic Math Operations
+.Getting the Average
+----
+include::../src/mathoper.c[]
+----

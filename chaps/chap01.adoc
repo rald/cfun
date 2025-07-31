@@ -1,0 +1,24 @@
+== Chapter 1: Compiling and Running
+
+=== Your first program
+.Greet Hello World
+[source,c]
+----
+include::../src/HelloWorld.c[]
+----
+
+=== Compiling
+.Compiling the Source Code
+[source,sh]
+----
+gcc HelloWorld.c -o HelloWorld
+----
+
+=== Running
+.Running the Executable
+[source,sh]
+----
+./HelloWorld
+----
+
+

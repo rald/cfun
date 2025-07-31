@@ -1,0 +1,31 @@
+== Chapter 3: Basic Input/Output
+
+=== Basic Input
+.Basic Input
+[source,c]
+----
+scanf( fmt, ...args );
+----
+
+=== Basic Output
+.Basic Output
+[source,c]
+----
+printf( fmt, ...args );
+----
+
+=== Format Specifiers
+.Basic Format Specifiers
+|===
+|Format|Definition 
+
+|%c    |char       
+|%d,%i |int        
+|%hd   |short int  
+|%u    |unsigned int        
+|%hu   |unsigned short int        
+|%f    |float      
+|%lf   |double     
+|%llf  |long double
+|%s    |string
+|===

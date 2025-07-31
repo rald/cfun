@@ -1,1 +1,1 @@
-asciidoctor-pdf cfun.adoc && termux-open cfun.pdf
+asciidoctor-pdf cfun.adoc && open cfun.pdf
