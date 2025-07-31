@@ -8,15 +8,10 @@ Fria El Agua <friaelagua@gmail.com>
 == Chapter 1: Compiling and Running
 
 === Your first program
-.HelloWorld.c
+.Greet Hello World
 [source,c]
 ----
-/* HelloWorld.c */
-#include <stdio.h>
-int main(void) {
-	printf("Hello World\n");
-	return 0;
-} 
+include::src/HelloWorld.c[]
 ----
 
 === Compiling
@@ -47,20 +42,22 @@ gcc HelloWorld.c -o HelloWorld
 Can contain an ascii character or a number.
 
 === Integer
-`int` or `signed int` has a range from +
-`unsigned int` has a range from +
-`short int` has a range from +
-`long int` has a range from +
-`long long int` has a range from +
+`int` or `signed int` has a range from -2,147,483,648 to 2,147,483,647 +
+`unsigned int` has a range from 0 to 4,294,967,295 +
+`signed short int` has a range from -32668 to 32767 +
+`unsigned short int` has a range from 0 to 65535 +
+`long int` has a range from -2,147,483,648 to 2,147,483,647 +
+`long long int` has a range from  -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807.
+ +
 Can contain only integers.
 
 === Float
-`float` Has a range from +
+`float` Has a range from 1.2E-38 to 3.4E+38 +
 Can contain decimal numbers.
 
 === Double
-`double` Has a range from +
-`long double` Has a range from +
+`double` Has a range from 1.7E-308 to 1.7E+308 +
+`long double` Has a range from 3.4E-4932 to 1.1E+4932. +
 Can contain decimal numbers.
 
 
@@ -88,7 +85,7 @@ printf( fmt, ...args );
 === Format Specifiers
 .Format Specifiers
 |===
-|format|definition 
+|Format|Definition 
 
 |%c    |char       
 |%d,%i |int        
@@ -106,3 +103,63 @@ printf( fmt, ...args );
 <<<
 
 
+
+## Chapter 4: Variables
+
+### Printing a Variable
+.Printing a Variable
+----
+include::src/printvar.c[]
+----
+
+### Scanning a Variable
+.Scanning a Variable
+----
+include::src/scanvar.c[]
+----
+
+
+
+<<<
+
+
+
+## Chapter 5: Mathematical Operations
+
+=== Mathematical Operators
+.Mathemathical Operators
+|===
+|Operator|Definition 
+
+|+      |add       
+|-      |subtract        
+|*      |multiply  
+|/      |divide       
+|%      |modulo
+|===
+
+### Basic Math Operations
+.Getting the Average
+----
+include::src/mathoper.c[]
+----
+
+
+
+<<<
+
+
+
+## Chapter 6: Relational Operation
+
+
+
+<<<
+
+
+
+## Chapter 7: Logical Operation
+
+
+
+<<<
